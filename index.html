@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Alex Styles — creative designer and front-end developer portfolio.">
+  <title>Alex Styles | Creative Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">Alex<span>.</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation"
+        aria-expanded="false" aria-controls="nav-links">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a class="nav-cta" href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">HELLO, I'M ALEX STYLES</p>
+          <h1>Designing digital experiences that <span>inspire.</span></h1>
+          <p class="hero-description">
+            I'm a creative designer and front-end developer passionate
+            about building beautiful, accessible, and user-friendly websites.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">Explore My Work ↗</a>
+            <a class="button secondary" href="#contact">Let's Talk</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>3+</strong><span>Years learning</span></div>
+            <div><strong>12+</strong><span>Projects created</span></div>
+            <div><strong>100%</strong><span>Passion</span></div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="portrait-card">
+            <div class="portrait-icon" aria-hidden="true">AS</div>
+            <p class="portrait-caption">CREATIVE MIND. DIGITAL CRAFT.</p>
+          </div>
+          <span class="floating-tag tag-one">✦ UI / UX Design</span>
+          <span class="floating-tag tag-two">⌘ Front-end Dev</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container two-column">
+        <div>
+          <p class="eyebrow">GET TO KNOW ME</p>
+          <h2>A little about <span>my journey.</span></h2>
+        </div>
+        <div>
+          <p class="body-copy">
+            I enjoy turning ideas into meaningful digital experiences.
+            My approach combines thoughtful design, clean code, and a
+            strong focus on the people using what I create.
+          </p>
+          <p class="body-copy">
+            I'm always exploring new tools, improving my skills, and
+            looking for creative ways to solve everyday problems.
+          </p>
+          <a class="text-link" href="#contact">Let's connect ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <p class="eyebrow">WHAT I DO</p>
+        <h2>Skills &amp; <span>services.</span></h2>
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">✳</span>
+            <h3>UI / UX Design</h3>
+            <p>Intuitive layouts, thoughtful user journeys, and clear interfaces.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">⌘</span>
+            <h3>Web Development</h3>
+            <p>Responsive websites built with HTML, CSS, and JavaScript.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">◈</span>
+            <h3>Visual Design</h3>
+            <p>Consistent colors, typography, and visual identities for the web.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="container">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>Projects I'm <span>proud of.</span></h2>
+        <p class="section-intro">A few concept projects exploring design and development.</p>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-art art-one" aria-hidden="true">
+              <span>01 / BRAND</span><strong>Forma</strong>
+            </div>
+            <div class="project-info">
+              <div><h3>Forma Studio</h3><p>Branding · UI Design</p></div>
+              <button class="icon-button project-open"
+                data-project="forma" aria-label="View Forma Studio details"
+                title="View project details">↗</button>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-two" aria-hidden="true">
+              <span>02 / COMMERCE</span><strong>MONO</strong>
+            </div>
+            <div class="project-info">
+              <div><h3>Mono Store</h3><p>E-commerce · Responsive UI</p></div>
+              <button class="icon-button project-open"
+                data-project="mono" aria-label="View Mono Store details"
+                title="View project details">↗</button>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-three" aria-hidden="true">
+              <span>03 / WELLNESS</span><strong>Bloom</strong>
+            </div>
+            <div class="project-info">
+              <div><h3>Bloom Wellness</h3><p>Web Design · UX Research</p></div>
+              <button class="icon-button project-open"
+                data-project="bloom" aria-label="View Bloom Wellness details"
+                title="View project details">↗</button>
+            </div>
+          </article>
+        </div>
+        <p class="demo-note">Note: These are portfolio concept projects created for demonstration.</p>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-panel">
+        <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+        <h2>Let's make something <span>meaningful.</span></h2>
+        <p>Have an idea or want to collaborate? I'd love to hear from you.</p>
+        <a class="button primary"
+          href="mailto:hello@example.com?subject=Portfolio%20Inquiry">
+          Say Hello ↗
+        </a>
+        <p class="demo-note">Demo email: replace hello@example.com with your email.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <a class="logo" href="#home">Alex<span>.</span></a>
+      <p>Designed with purpose. Built with care.</p>
+      <p>© <span id="year">2026</span> Alex Styles</p>
+    </div>
+  </footer>
+
+  <dialog class="project-modal" id="project-modal"
+    aria-labelledby="modal-title">
+    <div class="modal-inner">
+      <button class="modal-close" aria-label="Close project details">×</button>
+      <p class="eyebrow">PROJECT OVERVIEW</p>
+      <h2 id="modal-title">Project details</h2>
+      <p id="modal-description"></p>
+      <p class="modal-tools" id="modal-tools"></p>
+      <button class="button primary" id="modal-done">Got it</button>
+    </div>
+  </dialog>
+
+  <script>
+    // Helpful fallback for the footer year if JavaScript is enabled.
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
